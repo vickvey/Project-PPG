@@ -1,10 +1,11 @@
-import os
-import numpy as np
-import pandas as pd
-import neurokit2 as nk
 import logging
+import os
+
+import neurokit2 as nk
+import pandas as pd
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+
 
 class PPGFeatureExtractor:
     def __init__(self, base_dir, output_csv_path, problems_txt_path):
@@ -12,7 +13,7 @@ class PPGFeatureExtractor:
         self.base_dir = base_dir
         self.output_csv_path = output_csv_path
         self.problems_txt_path = problems_txt_path
-        
+
         # Class attributes
         self.all_participant_data = []
         self.problematic_participants = []
@@ -100,6 +101,7 @@ class PPGFeatureExtractor:
                     self.problematic_participants.append(P_Id)
 
         self.export_features_and_problems()
+
 
 if __name__ == "__main__":
     BASE_DIR = '/home/vivek/Desktop/PPG-Analysis/GSR_data'
