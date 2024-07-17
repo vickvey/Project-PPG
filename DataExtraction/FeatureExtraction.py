@@ -129,8 +129,8 @@ class PPGFeatureExtractor:
 
 if __name__ == "__main__":
     BASE_DIR = '/home/vivek/Desktop/PPG-Analysis/GSR_data'
-    OUTPUT_CSV_PATH = '/home/vivek/DataspellProjects/Project-PPG/features.csv'
-    PROBLEMS_TXT_PATH = '/home/vivek/DataspellProjects/Project-PPG/problems_features.txt'
+    OUTPUT_CSV_PATH = '/home/vivek/DataspellProjects/Project-PPG/Datasets/features.csv'
+    PROBLEMS_TXT_PATH = '/home/vivek/DataspellProjects/Project-PPG/Datasets/problems_features.txt'
 
     pipeline = PPGFeatureExtractor(BASE_DIR, OUTPUT_CSV_PATH, PROBLEMS_TXT_PATH)
     pipeline.run()

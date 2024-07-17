@@ -19,7 +19,7 @@ class LabelGenerator:
         result_df.to_csv(csv_file_path, index=False)
 
 def main():
-    excel_file = 'labels/participant_response.xlsx'
+    excel_file = 'Raw/participant_response.xlsx'
     
     # Question 2 is reversed, so we need to map the values to the correct ones
     mapping = {1: 5, 2: 4, 3: 3, 4: 2, 5: 1, None: None}
@@ -31,7 +31,7 @@ def main():
     missing_ids = [110, 131, 136, 174, 182, 185, 197, 206, 177]
     
     # The result will be saved in `labels.csv` file
-    csv_file_path = 'labels.csv'
+    csv_file_path = 'Datasets/labels.csv'
     
     label_gen = LabelGenerator(excel_file, missing_ids)
     label_gen.apply_mapping('AS1_2', mapping)
