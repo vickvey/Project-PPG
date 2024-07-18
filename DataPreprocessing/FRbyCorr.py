@@ -151,11 +151,14 @@ def main():
     df_reduced_final.to_csv('Datasets/reduced_II.csv', index=False)
     print("Reduced dataset is saved to 'Datasets/reduced_II.csv'")
 
+    # Save the correlation matrix of reduced final DataFrame to Excel
+    excel_path_reduced = 'DataPreprocessing/Correlation/corr_mat_II.xlsx'
+    save_corr_matrix_to_excel(df_reduced_final, excel_path_reduced)
+
+    # Save the correlation heatmap of reduced final DataFrame to PNG
+    heatmap_path_reduced = 'DataPreprocessing/Correlation/corr_hmap_II.png'
+    correlation_matrix_reduced = df_reduced_final.corr()
+    save_corr_heatmap(correlation_matrix_reduced, heatmap_path_reduced)
+
 if __name__ == "__main__":
     main()
-
-
-
-
-
-

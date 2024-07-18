@@ -1,4 +1,4 @@
-<mxfile host="Electron" modified="2024-07-18T06:40:53.053Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.5.3 Chrome/124.0.6367.207 Electron/30.0.6 Safari/537.36" etag="cOpESeo_jEgr6tMQVkuw" version="24.5.3" type="device">
+<mxfile host="Electron" modified="2024-07-18T07:02:25.748Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.5.3 Chrome/124.0.6367.207 Electron/30.0.6 Safari/537.36" etag="-JrGzv3R3M4cZroqf9AN" version="24.5.3" type="device">
   <diagram name="Page-1" id="4h5rcGQ37CvVrqgL6BRg">
     <mxGraphModel dx="1140" dy="698" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -60,34 +60,34 @@
         <mxCell id="G27XcJ3L38covOuvppiz-49" value="&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;b&gt;Removed I&lt;/b&gt;&lt;/div&gt;&lt;div&gt;(reduced_I.csv)&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="660" y="320" width="160" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="G27XcJ3L38covOuvppiz-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="G27XcJ3L38covOuvppiz-54" target="G27XcJ3L38covOuvppiz-56" edge="1">
+        <mxCell id="NhDxNRqXEH33gflB0Hib-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="G27XcJ3L38covOuvppiz-54" target="NhDxNRqXEH33gflB0Hib-25">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="500" y="283" as="targetPoint" />
+            <mxPoint x="160" y="355" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="G27XcJ3L38covOuvppiz-54" value="&lt;b&gt;Feature Removeal II&lt;/b&gt;&lt;div&gt;FRbyCorr.py&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="242.5" y="335" width="140" height="40" as="geometry" />
+          <mxGeometry x="250" y="335" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="NhDxNRqXEH33gflB0Hib-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="G27XcJ3L38covOuvppiz-56" target="G27XcJ3L38covOuvppiz-58">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="G27XcJ3L38covOuvppiz-56" value="&lt;b&gt;Data with Reduced features&lt;/b&gt;&lt;div&gt;(reduced_II.csv)&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="70" y="310" width="120" height="90" as="geometry" />
+          <mxGeometry x="35" y="490" width="120" height="90" as="geometry" />
         </mxCell>
         <mxCell id="NhDxNRqXEH33gflB0Hib-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="G27XcJ3L38covOuvppiz-58" target="G27XcJ3L38covOuvppiz-60">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="G27XcJ3L38covOuvppiz-58" value="Model Training with&lt;div&gt;Stratified K fold and&amp;nbsp;&lt;/div&gt;&lt;div&gt;Simple Imputer and other methods&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="25" y="490" width="210" height="70" as="geometry" />
+          <mxGeometry x="20" y="620" width="210" height="70" as="geometry" />
         </mxCell>
         <mxCell id="G27XcJ3L38covOuvppiz-60" value="Results" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="360" y="495" width="120" height="60" as="geometry" />
+          <mxGeometry x="640" y="610" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NhDxNRqXEH33gflB0Hib-2" value="&lt;b&gt;Start&lt;/b&gt;" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;flipH=1;notch=0;" vertex="1" parent="1">
           <mxGeometry x="730" y="30" width="80" height="70" as="geometry" />
         </mxCell>
         <mxCell id="NhDxNRqXEH33gflB0Hib-3" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.star;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" vertex="1" parent="1">
-          <mxGeometry x="382.5" y="380" width="35" height="30" as="geometry" />
+          <mxGeometry x="220" y="520" width="35" height="30" as="geometry" />
         </mxCell>
         <mxCell id="NhDxNRqXEH33gflB0Hib-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="G27XcJ3L38covOuvppiz-49" target="NhDxNRqXEH33gflB0Hib-13">
           <mxGeometry relative="1" as="geometry">
@@ -95,8 +95,11 @@
             <mxPoint x="720" y="325" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NhDxNRqXEH33gflB0Hib-13" value="&lt;b&gt;Correlation Plotting&lt;/b&gt;&lt;div&gt;corr_mat_I.xlsx&lt;/div&gt;&lt;div&gt;corr_hmap_I.png&lt;/div&gt;&lt;div&gt;by using FRbyCorr.py&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="432.5" y="320" width="140" height="70" as="geometry" />
+        <mxCell id="NhDxNRqXEH33gflB0Hib-13" value="&lt;b&gt;Correlation Plotting 85 features&lt;/b&gt;&lt;div&gt;corr_mat_I.xlsx&lt;/div&gt;&lt;div&gt;corr_hmap_I.png&lt;/div&gt;&lt;div&gt;by using FRbyCorr.py&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="420" y="320" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="NhDxNRqXEH33gflB0Hib-25" value="&lt;b&gt;Correlation Plotting 41 features&lt;/b&gt;&lt;div&gt;corr_mat_II.xlsx&lt;/div&gt;&lt;div&gt;corr_mat_II.png&lt;/div&gt;&lt;div&gt;by using FRbyCorr.py&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="10" y="320" width="200" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
