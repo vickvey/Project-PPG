@@ -10,6 +10,6 @@ def main(features_path, labels_path, output_path, key_col='P_Id'):
 if __name__ == "__main__":
     features_path = 'Datasets/features.csv'
     labels_path = 'Datasets/labels.csv'
-    output_path = 'Datasets/data.csv'
+    output_path = 'Datasets/merged.csv'
     
     main(features_path, labels_path, output_path)

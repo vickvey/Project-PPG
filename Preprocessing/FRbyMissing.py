@@ -53,7 +53,7 @@ def main(input_path, output_path, missing_value_threshold):
         save_csv(data, output_path)
 
 if __name__ == "__main__":
-    input_path = 'Datasets/data.csv'
-    output_path = 'Datasets/data_cleaned.csv'  # Changed output file name to avoid overwriting the original
+    input_path = 'Datasets/merged.csv'
+    output_path = 'Datasets/removed_1.csv'  # Changed output file name to avoid overwriting the original
     missing_value_threshold = 20
     main(input_path, output_path, missing_value_threshold)
