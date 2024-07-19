@@ -1,2 +1,7 @@
+# Ignore any virtual envs or IDE files in the project
 .venv/
 .idea/
+.vscode/
+
+# Ignore the GSR_data directory
+Raw/GSR_data/
