@@ -6,6 +6,9 @@ This document provides a comprehensive overview of the end-to-end machine learni
 
 It details each stage of the process, from data extraction and preprocessing to model training and evaluation, ensuring clarity and reproducibility for future reference.
 
+Here is the quick glance of the ML pipeline:  
+![Pipeline Diagram](ViewPipeline/pipeline.drawio.png)
+
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [PPG Overview](#ppg-overview)
